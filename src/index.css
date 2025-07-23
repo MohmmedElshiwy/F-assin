@@ -1,0 +1,73 @@
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #19AB8E;
+  cursor: pointer;
+  opacity: 0;
+  /* z-index: 9999; */
+  transition: opacity 0.5s ease-in-out;
+  &&:hover{
+    opacity: 0.8;
+  }
+}
+.box-container{
+  position: fixed;
+  background: rgba(46, 45, 45, 0.171);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  width: 100%; 
+   z-index: 9999;
+
+
+  height: 100vh;
+}
+.transtion{
+  transition: .5s;
+}
+.active{
+  color: #fff !important;
+  background-color: #0d6efd !important;
+    border-radius: 5px;
+    font-weight: 900;
+    padding: 10px 25px!important;
+}
+
+NavLink{
+
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+nav ul li {
+  margin: 0 15px;
+}
+
+/* input{
+
+  border: 1px solid  transparent !important
+  ;
+  border-bottom: 2px solid #ccc !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+input:focus{
+  outline: none !important;
+  border-bottom: 2px solid #0d6efd !important;
+} */
+ .form-control:focus {
+  
+    box-shadow: none !important;
+  }
+    .form-control {
+    border: 1px solid transparent !important;
+    border-bottom:1px solid #ccc !important;
+  }
+label{
+  
+}
